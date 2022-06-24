@@ -1,0 +1,16 @@
+
+{
+  "name": "countries-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm run start",
+    "build:server": "cd server && npm i && npm run build",
+    "build:client": "cd client && npm i && npm run build",
+    "heroku-prebuild": "npm run build:server && npm run build:client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
